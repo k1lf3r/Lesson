@@ -107,7 +107,7 @@ header {
   text-align: left;
 }
 .block-build {
-  padding: 20px;
+  padding: 40px;
   border-radius: 15px;
   position: relative;
   width: 255px;
@@ -116,8 +116,12 @@ header {
 }
 .build-img img {
   position: absolute;
-  top: 39.23%;
-  left:15%;
+  top: 55.23%;
+  left: 24%;
   bottom: 42.02%;
-
+}
+@media (max-width: 800px){
+  .build-txt{
+    color:green;
+  }
 }
