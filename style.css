@@ -112,7 +112,6 @@ header {
   position: relative;
   width: 305px;
   height: 200px;
-  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
 }
 .build-img img {
   position: absolute;
@@ -181,8 +180,8 @@ header {
 }
 .pfirst-block a {
   position: absolute;
-  left: 490px;
-  top: 2250px;
+  left: 390px;
+  top: 450px;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -190,14 +189,14 @@ header {
   text-align: center;
   text-decoration: none;
   background: #183181;
-  color:#FFFFFF;
-  padding:8px 16px;
-  border-radius:16px;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 16px;
 }
 .psecond-block a {
   position: absolute;
-  left: 1370px;
-  top: 2250px;
+  left: 400px;
+  top: 450px;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -205,8 +204,80 @@ header {
   text-align: center;
   text-decoration: none;
   background: #183181;
-  color:#FFFFFF;
-  padding:8px 16px;
-  border-radius:16px;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 16px;
 }
-
+.pfirst-block {
+  position: relative;
+}
+.psecond-block {
+  position: relative;
+}
+/******************/
+.oclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1800px;
+  position: relative;
+}
+.oclass h1 {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #183181;
+}
+.oclass h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.oclass h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.oclass a {
+  text-decoration: none;
+  color: #183181;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.oclass-text {
+  position: absolute;
+  right: 400px;
+}
+.oclass img {
+  position: relative;
+  right: 400px;
+}
+/*******************************/
+.mainbox {
+  height: 98px;
+  width: 100vw;
+  background-color: #0b0d17;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:800px;
+}
+.mainbox h1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d9dbe1;
+  
+}
